@@ -52,18 +52,26 @@ Multi-language Support – Make the app accessible in different languages.
 Email/SMS Notifications – Notify patients of upcoming appointments.
 
 📦 How to Run the App
+
 Backend
+
 
 cd server
 
+
 npm install
+
 
 npm run start:dev
 
+
 Frontend
+
 
 cd client
 
+
 npm install
+
 
 npm start
