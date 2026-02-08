@@ -56,22 +56,22 @@ Email/SMS Notifications – Notify patients of upcoming appointments.
 Backend
 
 
-cd server
+   cd server
 
 
-npm install
+    npm install
 
 
-npm run start:dev
+    npm run start:dev
 
 
-Frontend
+     Frontend
 
 
-cd client
+     cd client
 
 
-npm install
+    npm install
 
 
-npm start
+    npm start
