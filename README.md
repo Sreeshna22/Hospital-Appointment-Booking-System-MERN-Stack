@@ -53,10 +53,17 @@ Email/SMS Notifications – Notify patients of upcoming appointments.
 
 📦 How to Run the App
 Backend
+
 cd server
+
 npm install
+
 npm run start:dev
+
 Frontend
+
 cd client
+
 npm install
+
 npm start
