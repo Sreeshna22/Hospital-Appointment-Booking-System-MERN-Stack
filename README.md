@@ -19,7 +19,7 @@ View Appointments – See a list of upcoming appointments.
 
 Update Appointment Status – Change appointment status to Accepted, Completed, or Cancelled.
 
-Notifications – Receive alerts when a patient books a new appointment.
+
 
 🧑‍🤝‍🧑 Patient
 
@@ -31,7 +31,7 @@ Cancel Appointments – Cancel upcoming appointments.
 
 View Appointment History – Track past and upcoming appointments.
 
-Notifications – Receive updates when appointment status changes.
+
 
 🛠️ Tech Stack
 
