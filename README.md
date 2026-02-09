@@ -53,28 +53,29 @@ Email/SMS Notifications – Notify patients of upcoming appointments.
 
 📦 How to Run the App
 
-Backend
+   
+   Backend
 
 
    cd server
 
-
-    npm install
-
-
-    npm run start:dev
+   
+   npm install
 
 
-     Frontend
+   npm run dev
 
 
-     cd client
+    Frontend
 
 
-    npm install
+    cd ui
 
 
-    npm start
+   npm install
+
+
+   npm run dev
 
 
 
