@@ -35,9 +35,9 @@ View Appointment History – Track past and upcoming appointments.
 
 🛠️ Tech Stack
 
-Frontend: React.js, Tailwind CSS, (Optional: TypeScript, React Query)
-Backend: Node.js, Express.js, MongoDB, JWT Authentication, Socket.IO (optional for notifications)
-Hosting: Frontend on Netlify, Backend/Full-stack on Render
+Frontend: React.js, Tailwind CSS, 
+Backend: Node.js, Express.js, MongoDB, JWT Authentication,
+
 
 🔮 Future Enhancements
 
@@ -54,27 +54,34 @@ Email/SMS Notifications – Notify patients of upcoming appointments.
 📦 How to Run the App
 
    
+   
    Backend
 
 
+   
    cd server
 
+   
    
    npm install
 
 
+   
    npm run dev
 
 
+   
    Frontend
 
 
    cd ui
 
    
+  
   npm install
 
 
+   
    npm run dev
 
 
