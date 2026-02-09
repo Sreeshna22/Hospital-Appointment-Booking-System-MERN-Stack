@@ -11,7 +11,7 @@ const PatientDashboard = () => {
   const fetchAppointments = async () => {
     try {
       const res = await axios.get("/appointments");
-      setAppointments(res.data.slice(0, 3)); // show next 3 upcoming
+      setAppointments(res.data.slice(0, 3)); 
     } catch (err) {
       console.error("Failed to fetch appointments:", err);
     }

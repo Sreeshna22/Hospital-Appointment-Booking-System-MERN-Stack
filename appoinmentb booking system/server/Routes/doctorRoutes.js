@@ -1,7 +1,7 @@
 import express from "express";
 import Appointment from "../Models/Appointment.js";
 import authentication from "../Middleware/auth.js";
-import User from "../Models/User.js"; // ✅ import the User model
+import User from "../Models/User.js"; 
 import allowRoles from "../Middleware/role.js";
 
 const router = express.Router();
@@ -18,13 +18,13 @@ router.get("/", authentication, async (req, res) => {
   }
 });
 
-// Doctor: My appointments
+
 router.get("/my-appointments", authentication, allowRoles("doctor"), async (req, res) => {
   const appointments = await Appointment.find({ doctor: req.userId }).populate("patient", "FullName UserName").sort({ date: 1 });
   res.json({ appointments });
 });
 
-// Doctor: Update appointment status
+
 router.patch("/update-appointment/:id", authentication, allowRoles("doctor"), async (req, res) => {
   const { status } = req.body;
   const appointment = await Appointment.findById(req.params.id);

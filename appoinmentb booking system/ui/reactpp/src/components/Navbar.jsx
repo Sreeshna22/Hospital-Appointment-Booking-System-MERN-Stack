@@ -10,12 +10,12 @@ const Navbar = () => {
 
   return (
     <nav className="bg-blue-600 text-white p-4 flex justify-between items-center sticky top-0 z-50 shadow">
-      {/* Logo */}
+      
       <Link to="/" className="font-bold text-xl">
         Hospital App
       </Link>
 
-      {/* Navigation Links */}
+      
       <div className="flex items-center space-x-4">
         {!user && (
           <>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </>
         )}
 
-        {/* Welcome message + Logout button */}
+        
         {user && (
           <div className="flex items-center space-x-3 bg-blue-700 px-3 py-2 rounded-lg">
             <span className="font-semibold text-white">Welcome, {user.userName}!</span>

@@ -23,7 +23,7 @@ const ManageDoctors = () => {
     e.preventDefault();
     try {
       if (editingId) {
-        // EDIT: (Optional: backend should support update doctor)
+      
         alert("Edit feature requires backend endpoint");
       } else {
         await axios.post("/admin/add-doctor", { FullName, UserName, Password });
@@ -37,7 +37,7 @@ const ManageDoctors = () => {
 
   const handleDelete = async (id) => {
     try {
-      // Optional: backend DELETE endpoint needed
+    
       await axios.delete(`/admin/delete-doctor/${id}`);
       fetchDoctors();
     } catch (err) {

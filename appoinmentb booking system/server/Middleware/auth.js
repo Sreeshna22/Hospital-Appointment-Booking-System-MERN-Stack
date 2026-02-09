@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 
 function authentication(req, res, next) {
   try {
-    const token = req.cookies.logToken; // ✅ read cookie properly
+    const token = req.cookies.logToken; 
     if (!token) return res.status(401).json({ msg: "Unauthorized" });
 
     const decoded = jwt.verify(token, process.env.SECRET_KEY);
