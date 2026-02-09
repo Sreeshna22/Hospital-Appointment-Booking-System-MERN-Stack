@@ -66,17 +66,16 @@ Email/SMS Notifications – Notify patients of upcoming appointments.
    npm run dev
 
 
-    Frontend
+   Frontend
 
 
-    cd ui
+   cd ui
 
-
-   npm install
+   
+  npm install
 
 
    npm run dev
 
 
-
-    demo video  : https://drive.google.com/file/d/1EumZcaNMrpT_1QS99j3rnAizINAG0A1m/view?usp=sharing
+   demo video  : https://drive.google.com/file/d/1EumZcaNMrpT_1QS99j3rnAizINAG0A1m/view?usp=sharing
